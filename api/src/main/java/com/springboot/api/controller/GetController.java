@@ -58,7 +58,7 @@ public class GetController {
 
         return sb.toString();
     }
-     */
+    */
 
     // DTO 객체를 활용한 GET 메서드 구현
     @GetMapping(value="/request3")
