@@ -1,8 +1,8 @@
-package chapter6.jpa.data.repository;
+package com.springboot.test.data.repository;
 
-import com.springboot.jpa.data.entity.Product;
+import com.springboot.test.data.entity.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface ProductRepository extends JpaRepository<Product, Long> {
-    // 추가 예정
+
 }
