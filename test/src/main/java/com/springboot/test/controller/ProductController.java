@@ -30,7 +30,6 @@ public class ProductController {
         this.productService = productService;
     }
 
-    // 예제 7.5
     @GetMapping()
     public ResponseEntity<ProductResponseDto> getProduct(Long number) {
 
